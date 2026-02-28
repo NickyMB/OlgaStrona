@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cześć! Jestem Olga, mam 16 lat. Tu znajdziesz moje ulubione filmy i seriale: Linia życia, Auta 2, Breaking Bad, Pulp Fiction i Kill Bill.">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/swg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Olga – Moje ulubione filmy i seriale</title>
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <a href="Olga.html">
+                <img src="img/Logo.png" alt="Logo strony Olgi" />
+            </a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbutton">
+            <ion-icon name="menu"></ion-icon>
+        </label>
+
+        <nav class="Menu">
+            <ul>
+                <li><a href="#">Start</a></li>
+                <li><a href="#panele">Filmy</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="Darkmode">
+            <label>
+                <i class="fa-solid fa-sun"></i>
+                <span class="action">
+                    <input type="checkbox" id="dark">
+                    <i></i>
+                </span>
+                <i class="fa-solid fa-moon"></i>
+            </label>
+        </div>
+    </header>
+    <div class="container">
+        <div class="opis" id="o-mnie">
+            <div class="zdjecie">
+                <img src="img/linia_zycia.jpg" alt="Linia życia – okładka">
+            </div>
+            <div class="tekst">
+                <h1>Cześć, jestem &nbsp;<span>Olga!</span></h1>
+                <p>Mam 16 lat i kocham kino. Filmy to dla mnie nie tylko rozrywka – to okno na inny świat, emocje i niesamowite opowieści. Zaczęłam oglądać seriale razem z rodziną, ale szybko sama trafiłam na tytuły, które całkowicie mnie pochłonęły.
+
+                    Uwielbiam klimaty mroczne, pełne suspensu, ale też animacje i filmy akcji, które potrafią zaskoczyć czymś więcej niż efektami specjalnymi. Dobry film to dla mnie taki, który zostaje w głowie long after the credits roll.
+
+                    Na tej stronie znajdziesz moje ulubione tytuły – wybrałam je z całego serca. Każdy z nich zostawił we mnie jakiś ślad i wiem, że wrócę do nich nieraz. Zapraszam do odkrywania kina razem ze mną!</p>
+            </div>
+        </div>
+        <div class="paralaxa full" id="paralaxa">
+        </div>
+        <div class="panele full" id="panele">
+
+            <!-- Linia życia -->
+            <div class="panel obrotowy">
+                <div class="face face1" style="background: url('img/linia_zycia.jpg') center/cover no-repeat;">
+                    <div class="film-label">
+                        <h3>Linia życia</h3>
+                        <span>2017</span>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        Thriller o grupie studentów medycyny, którzy eksperymentują z kliniczną śmiercią. Mroczny, trzymający w napięciu i skłaniający do refleksji nad tym, co jest po drugiej stronie. Idealne kino na wieczór!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Auta 2 -->
+            <div class="panel obrotowy">
+                <div class="face face1" style="background: url('img/auta2.jpg') center/cover no-repeat;">
+                    <div class="film-label">
+                        <h3>Auta 2</h3>
+                        <span>Pixar 2011</span>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        Klasyk Pixara, do którego zawsze wracam z uśmiechem. Zygzak McQueen i Złomek w roli szpiegów to czysta radość – świetny humor, piękne animacje i dobra energia. Dowód, że animacje mogą być dla każdego!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Breaking Bad -->
+            <div class="panel obrotowy">
+                <div class="face face1" style="background: url('img/breaking_bad.jpg') center/cover no-repeat;">
+                    <div class="film-label">
+                        <h3>Breaking Bad</h3>
+                        <span>Serial 2008–2013</span>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        Absolutny numer jeden! Przemiana Waltera White'a z nauczyciela chemii w bezwzględnego kryminalistę to jedno z najlepiej napisanych dzieł w historii telewizji. Każdy odcinek to mistrzostwo scenariusza.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pulp Fiction -->
+            <div class="panel obrotowy">
+                <div class="face face1" style="background: url('img/pulp_fiction.jpg') center/cover no-repeat;">
+                    <div class="film-label">
+                        <h3>Pulp Fiction</h3>
+                        <span>Tarantino 1994</span>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        Niestandardowa narracja, kultowe dialogi i sceny, które zostają w głowie na zawsze. Oglądałam trzy razy i za każdym razem odkrywam coś nowego. Tarantino to geniusz – a to jego arcydzieło.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kill Bill -->
+            <div class="panel obrotowy">
+                <div class="face face1" style="background: url('img/kill_bill.jpg') center/cover no-repeat;">
+                    <div class="film-label">
+                        <h3>Kill Bill</h3>
+                        <span>Tarantino 2003</span>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        Styl, akcja i emocje. Panna Młoda walcząca o zemstę to jeden z najbardziej ikonicznych bohaterów filmowych. Każda scena jak obraz – japońskie estetyki, grindhouse i puls adrenaliny w jednym!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="galeria full " id="galeria">
+            <div class="siatka" data-swg data-swg-page>
+                <div class="item img1 " data-swg-item data-swg-caption="Linia życia 2017"><img src="img/linia_zycia.jpg" alt="Linia życia"></div>
+                <div class="item img2" data-swg-item data-swg-caption="Breaking Bad"><img src="img/breaking_bad.jpg" alt="Breaking Bad"></div>
+                <div class="item img3" data-swg-item data-swg-caption="Pulp Fiction"><img src="img/pulp_fiction.jpg" alt="Pulp Fiction"></div>
+                <div class="item img4" data-swg-item data-swg-caption="Kill Bill"><img src="img/kill_bill.jpg" alt="Kill Bill"></div>
+                <div class="item img5" data-swg-item data-swg-caption="Auta 2"><img src="img/auta2.jpg" alt="Auta 2"></div>
+                <div class="item img6" data-swg-item data-swg-caption="Breaking Bad – Walter White"><img src="img/breaking_bad.jpg" alt="Breaking Bad"></div>
+                <div class="item img7" data-swg-item data-swg-caption="Pulp Fiction – dialogi"><img src="img/pulp_fiction.jpg" alt="Pulp Fiction"></div>
+                <div class="item img8" data-swg-item data-swg-caption="Kill Bill – Panna Młoda"><img src="img/kill_bill.jpg" alt="Kill Bill"></div>
+                <div class="item img9" data-swg-item data-swg-caption="Kill Bill vol.1"><img src="img/kill_bill.jpg" alt="Kill Bill">
+                </div>
+                <div class="item img10" data-swg-item data-swg-caption="Pulp Fiction – walizka"><img src="img/pulp_fiction.jpg" alt="Pulp Fiction"></div>
+                <div class="item img11" data-swg-item data-swg-caption="Breaking Bad – finał"><img src="img/breaking_bad.jpg" alt="Breaking Bad">
+                </div>
+                <div class="item img12" data-swg-item data-swg-caption="Linia życia – SOR"><img src="img/linia_zycia.jpg" alt="Linia życia"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="gora">
+            <div class="stopka">
+                <div class="Logo">
+                    <a href="Olga.html">
+                        <img src="img/Logo.png" alt="Logo strony Olgi" />
+                    </a>
+                    <p>Strona Olgi</p>
+                    <p>Chorzów, Polska</p>
+                    <p><a
+                            href="mailto:olga@example.com?subject=Ulubione filmy&body=Cześć Olga!">olga@example.com</a>
+                    </p>
+                    <p><a href="tel: 123 456 789">tel. 123 456 789</a></p>
+                </div>
+            </div>
+            <div class="stopka">
+                <h3>Moje ulubione</h3>
+                <ul>
+                    <li><a href="#filmy-opis">Linia życia</a></li>
+                    <li><a href="#filmy-opis">Auta 2</a></li>
+                    <li><a href="#filmy-opis">Breaking Bad</a></li>
+                    <li><a href="#filmy-opis">Pulp Fiction</a></li>
+                    <li><a href="#filmy-opis">Kill Bill</a></li>
+                </ul>
+            </div>
+            <div class="stopka">
+                <h3>Newsletter filmowy</h3>
+                <div class="zapis">
+                    <p>Zapisz się, żeby dostawać moje recenzje filmowe!</p>
+                    <input type="email" id="newsletter" name="newsletter" placeholder="Wpisz swój adres email">
+                    <div class="wiersz">
+                        <input type="checkbox" name="zgoda-news" id="zgoda-news">
+                        <label for="zgoda-news">Wyrażam zgodę na...</label>
+                    </div>
+                    <a href="#">Zapisz się</a>
+                </div>
+            </div>
+        </div>
+        <div class="dol">
+            <p>Copyright 2025 by Olga &hearts;</p>
+        </div>
+    </footer>
+    <script>
+        let body = document.querySelector('body');
+        let dark = document.querySelector('#dark')
+        dark.onclick = function () {
+            if (dark.checked == true) {
+                body.classList.add('darkmode')
+            }
+            else {
+                body.classList.remove('darkmode')
+            }
+        }
+    </script>
+    <script src="javascript/swg.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
